@@ -6,7 +6,7 @@ const path = require('path');
 function convertExcelToJson(filePath) {
   try {
     // Read the Excel file
-    const workbook = XLSX.readFile("C:/Users/vidiy/Downloads/copiedresults.xlsx");
+    const workbook = XLSX.readFile("C://Users//vidiy//Downloads//DATA.xlsx");
 
     // Get the first sheet (or specify the sheet name if you know it)
     const sheetName = workbook.SheetNames[0]; // Change if needed
